@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ejam-figma/static/css/main.8a67bdca.css",
+    "main.css": "/ejam-figma/static/css/main.da3fd879.css",
     "main.js": "/ejam-figma/static/js/main.1995a390.js",
     "static/js/787.f7659a09.chunk.js": "/ejam-figma/static/js/787.f7659a09.chunk.js",
     "static/media/LeftImage.png": "/ejam-figma/static/media/LeftImage.8e329043bc9307c178de.png",
     "static/media/satisfaction.png": "/ejam-figma/static/media/satisfaction.bf25929030f1e3a00ba0.png",
     "index.html": "/ejam-figma/index.html",
-    "main.8a67bdca.css.map": "/ejam-figma/static/css/main.8a67bdca.css.map",
+    "main.da3fd879.css.map": "/ejam-figma/static/css/main.da3fd879.css.map",
     "main.1995a390.js.map": "/ejam-figma/static/js/main.1995a390.js.map",
     "787.f7659a09.chunk.js.map": "/ejam-figma/static/js/787.f7659a09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a67bdca.css",
+    "static/css/main.da3fd879.css",
     "static/js/main.1995a390.js"
   ]
 }
