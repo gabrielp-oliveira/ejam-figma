@@ -201,6 +201,13 @@
     footer > div:first-child {
         justify-content: space-evenly!important;
     } */
+    .product-advantages {
+        height: auto!important;
+        margin: 25px 0px!important;
+    }
+    .mainContent {
+        padding: 20px!important;
+    }
     footer  {
         font-size: 12px!important;
         flex-direction: column!important;

@@ -11,8 +11,7 @@ import arrowRight from '../../assets/header/arrow-right.png'
 
 
 
-function Header({ responsive }) {
-  const [headerItem, setHeaderItem] = useState('30-DAY SATISFACTION GUARANTEE')
+function Header() {
   const [current, setcurrent] = useState(1)
   const ATag = useRef(null)
 
@@ -84,7 +83,7 @@ function ItemComponent({ imageSrc, txt }) {
 }
 
 function HeaderResponsive({ current, ATag }) {
-  return (<ul class="slides">
+  return (<ul className="slides">
     <li id="slide-1" className='nav-headerItem'>
       <img src={checkMark} />
       <span>30-DAY SATISFACTION GUARANTEE</span>
