@@ -24,7 +24,7 @@
 
 .productContent {
     width: 550px;
-    height: 799px;
+    min-height: 799px;
 }
 .productContent h1 {
     font-weight: 400;
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.productDetails-description > h5 {
+.productDetails-description > h1 {
     font-size: 20px;
     font-weight: 400;
 }
@@ -291,7 +291,7 @@
    width: 48px;
    height: 48px; 
 }
-.review-user-details h5 {
+.review-user-details span {
     font-size: 14px;
     columns: #333333;
 }
@@ -303,7 +303,7 @@
     margin-top: 15px;
 }
 
-.checkbox-round {
+#checkbox-round {
     width: 15px;
     height: 15px;
     background-color: white;
@@ -324,6 +324,6 @@
     line-height: 22px;
 }
 
-.checkbox-round:checked {
+#checkbox-round:checked {
     background-color: var(--blue);
 }

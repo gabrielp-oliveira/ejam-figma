@@ -46,9 +46,9 @@ function Header() {
         </nav>
         <nav className='slider responsive-header-nav'>
           
-        <span className='controlSlider' onClick={() => callBackward()} ><img src={arrowLeft}/></span>
+        <span className='controlSlider' onClick={() => callBackward()} ><img src={arrowLeft} alt='move left arrow icon'/></span>
         <HeaderResponsive current={current} ATag={ATag} />
-        <span className='controlSlider' onClick={() => callFoward()}><img src={arrowRight}/></span>
+        <span className='controlSlider' onClick={() => callFoward()}><img src={arrowRight} alt='move right arrow icon'/></span>
         </nav>
 
       </header>
@@ -76,7 +76,7 @@ function ListItems() {
 function ItemComponent({ imageSrc, txt }) {
   return (
     <li className='nav-headerItem'>
-      <img src={imageSrc}></img>
+      <img src={imageSrc} alt={txt}></img>
       <span>{txt}</span>
     </li>
   )

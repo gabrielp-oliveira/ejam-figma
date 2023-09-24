@@ -20,23 +20,23 @@ function SpecialOffer() {
   return (
     <div className='specialContent'>
       <div className='productImage'>
-        <img src={LeftImage}></img>
+        <img src={LeftImage} alt='bigger profuct image'></img>
         <div className='review-user'>
           <div>
-            <img className='user-pic' src={user}></img>
+            <img className='user-pic' src={user} alt='circle user picture'></img>
             <div className='review-user-details'>
               <div className='review-stars'>
                 <ul>
-                  <li><img src={Star}></img></li>
-                  <li><img src={Star}></img></li>
-                  <li><img src={Star}></img></li>
-                  <li><img src={Star}></img></li>
-                  <li><img src={Star}></img></li>
+                  <li><img src={Star} alt='review star'></img></li>
+                  <li><img src={Star} alt='review star'></img></li>
+                  <li><img src={Star} alt='review star'></img></li>
+                  <li><img src={Star} alt='review star'></img></li>
+                  <li><img src={Star} alt='review star'></img></li>
                 </ul>
               </div>
               <div>
-                <h5>Ken T.</h5>
-              <img src={verify}></img>
+                <span>Ken T.</span>
+              <img src={verify} alt='vify certificate'></img>
               </div>
             </div>
 
@@ -49,24 +49,26 @@ function SpecialOffer() {
       <section className='productContent'>
         <h1><span>ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span>$14 each</span><br className='brk' />  ($84.00 total!)</h1>
         <div className='productDetails'>
-          <img src={RightImage}></img>
+          <img src={RightImage} alt='small product image'></img>
           <div>
             <div className='productDetails-description'>
 
-              <h5>Clarifion Air Ionizer</h5>
+              <h1>Clarifion Air Ionizer</h1>
               <div>
                 <del>$180</del>
                 <span>$84</span>
               </div>
             </div>
             <div className='reviewStarts'>
-              <img src={Star}></img>
-              <img src={Star}></img>
-              <img src={Star}></img>
-              <img src={Star}></img>
-              <img src={Star}></img>
+              <img src={Star} alt='review star'></img>
+              <img src={Star} alt='review star'></img>
+              <img src={Star} alt='review star'></img>
+              <img src={Star} alt='review star'></img>
+              <img src={Star} alt='review star'></img>
             </div>
-            <div className='quantity'><input className='checkbox-round' type="checkbox" name="" id="" /> <span>12 left in Stock</span></div>
+            <div className='quantity'>
+              <label for="checkbox-round"></label> <input type="checkbox" id="checkbox-round"/>
+              <span>12 left in Stock</span></div>
             <p className='light-text'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
           </div>
         </div>
@@ -75,13 +77,13 @@ function SpecialOffer() {
         <div className='product-advantages'>
           <ul>
             <li>
-              <img src={checkMark} /><p>Negative Ion Technology may <span>help with allergens</span></p>
+              <img src={checkMark} alt='check mark' /><p>Negative Ion Technology may <span>help with allergens</span></p>
             </li>
             <li>
-              <img src={checkMark} /><p>Designed for <span>air rejuvenation</span></p>
+              <img src={checkMark } alt='check mark' /><p>Designed for <span>air rejuvenation</span></p>
             </li>
             <li>
-              <img src={checkMark} /><p><span>Perfect for every room</span> in all types of places.</p>
+              <img src={checkMark } alt='check mark' /><p><span>Perfect for every room</span> in all types of places.</p>
             </li>
           </ul>
         </div>
@@ -95,27 +97,27 @@ function SpecialOffer() {
         <div className='claim-container'>
           <div className='claim'>
 
-            <p>Yes - Claim my discount</p> <img src={rightArrow}></img>
+            <p>Yes - Claim my discount</p> <img src={rightArrow} alt='right arrow to claim dincount'></img>
           </div>
           <div className='claim-details'>
             <div>
 
             <div><p>Free shipping</p></div>
-            <div><img src={lock} className='lock'></img> <p>Secure 256-bit SSL encryption.</p> </div>
+            <div><img src={lock} className='lock' alt='lock icon'></img> <p>Secure 256-bit SSL encryption.</p> </div>
             </div>
             <div className='paymentsOptions'>
-              <img src={visa}></img>
-              <img src={shopPay}></img>
-              <img src={paypal}></img>
-              <img src={masterCard}></img>
-              <img src={gpay}></img>
-              <img src={APay}></img>
-              <img src={amex}></img>
+              <img src={visa} alt='visa logo'></img>
+              <img src={shopPay} alt='shop Pay logo'></img>
+              <img src={paypal} alt='Pay Pal logo'></img>
+              <img src={masterCard} alt='master card logo'></img>
+              <img src={gpay} alt='google pay logo'></img>
+              <img src={APay} alt='Apple pay logo'></img>
+              <img src={amex} alt='Amex pay'></img>
             </div>
           </div>
           <div className='deny'><p>No thanks, I don’t want this.</p></div>
           <div className='satisfaction-badge'>
-            <img src={satisfaction}></img>
+            <img src={satisfaction} alt='Satisfaction guarantee badge'></img>
             <p className='light-text'>If you are not completely thrilled with your Clarifion - We have a <span>30 day satisfaction guarantee</span>. Please refer to our return policy at the bottom of the page for more details.<br/> Happy Shopping!</p>
           </div>
         </div>

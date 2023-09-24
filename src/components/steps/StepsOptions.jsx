@@ -23,7 +23,7 @@ export default StepsOptions
 function Step({setState, step,stepValue, txt}){
   return(<>
   <li onClick={() => setState(txt)} className='stepOption'>
-    {stepValue == txt ? <span className='stepSelected'>{step}</span> :  <img src={checkMark}></img>}
+    {stepValue == txt ? <span className='stepSelected'>{step}</span> :  <img src={checkMark} alt={`check mark to ${txt}`}></img>}
     <span data-step={`step ${step}: `}>{txt}</span>
   </li>
   

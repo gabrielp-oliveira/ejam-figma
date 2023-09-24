@@ -9,7 +9,7 @@ function Footer() {
         <span>Clarifionsupport@clarifion.com</span>
       </div>
       <div>
-        <img src={lock}></img>
+        <img src={lock} alt='lock icon image'></img>
         <span>Secure 256-bit SSL encryption.</span>
       </div>
     </footer>

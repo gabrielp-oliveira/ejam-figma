@@ -10,11 +10,11 @@ function SubHeader() {
             <div className='subHeader-logos'>
 
                 <div className='logos-right'>
-                    <img src={clarifon}></img>
+                    <img src={clarifon} alt='Clarifon logo'></img>
                 </div>
                 <div className='logos-left'>
-                    <img src={McAfee}></img>
-                    <img src={norton}></img>
+                    <img src={McAfee} alt='MC Afee logo'></img>
+                    <img src={norton} alt='norton logo'></img>
                 </div>
             </div>
             <div className='subHeader-title'>
