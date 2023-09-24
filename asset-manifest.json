@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ejam-figma/static/css/main.1052d226.css",
-    "main.js": "/ejam-figma/static/js/main.b9079e69.js",
+    "main.css": "/ejam-figma/static/css/main.3939a1ae.css",
+    "main.js": "/ejam-figma/static/js/main.b57fc6e3.js",
     "static/js/787.f7659a09.chunk.js": "/ejam-figma/static/js/787.f7659a09.chunk.js",
     "static/media/LeftImage.png": "/ejam-figma/static/media/LeftImage.8e329043bc9307c178de.png",
     "static/media/satisfaction.png": "/ejam-figma/static/media/satisfaction.bf25929030f1e3a00ba0.png",
     "index.html": "/ejam-figma/index.html",
-    "main.1052d226.css.map": "/ejam-figma/static/css/main.1052d226.css.map",
-    "main.b9079e69.js.map": "/ejam-figma/static/js/main.b9079e69.js.map",
+    "main.3939a1ae.css.map": "/ejam-figma/static/css/main.3939a1ae.css.map",
+    "main.b57fc6e3.js.map": "/ejam-figma/static/js/main.b57fc6e3.js.map",
     "787.f7659a09.chunk.js.map": "/ejam-figma/static/js/787.f7659a09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1052d226.css",
-    "static/js/main.b9079e69.js"
+    "static/css/main.3939a1ae.css",
+    "static/js/main.b57fc6e3.js"
   ]
 }
