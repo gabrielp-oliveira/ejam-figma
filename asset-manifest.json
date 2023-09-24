@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ejam-figma/static/css/main.fdadb223.css",
-    "main.js": "/ejam-figma/static/js/main.33ff6cc2.js",
+    "main.css": "/ejam-figma/static/css/main.bdced50f.css",
+    "main.js": "/ejam-figma/static/js/main.6cc2a931.js",
     "static/js/787.f7659a09.chunk.js": "/ejam-figma/static/js/787.f7659a09.chunk.js",
     "static/media/LeftImage.png": "/ejam-figma/static/media/LeftImage.8e329043bc9307c178de.png",
     "static/media/satisfaction.png": "/ejam-figma/static/media/satisfaction.bf25929030f1e3a00ba0.png",
     "index.html": "/ejam-figma/index.html",
-    "main.fdadb223.css.map": "/ejam-figma/static/css/main.fdadb223.css.map",
-    "main.33ff6cc2.js.map": "/ejam-figma/static/js/main.33ff6cc2.js.map",
+    "main.bdced50f.css.map": "/ejam-figma/static/css/main.bdced50f.css.map",
+    "main.6cc2a931.js.map": "/ejam-figma/static/js/main.6cc2a931.js.map",
     "787.f7659a09.chunk.js.map": "/ejam-figma/static/js/787.f7659a09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdadb223.css",
-    "static/js/main.33ff6cc2.js"
+    "static/css/main.bdced50f.css",
+    "static/js/main.6cc2a931.js"
   ]
 }
